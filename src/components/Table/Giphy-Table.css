@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: fit-content;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  display: flex;
+  justify-content: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+img {
+  height: 200px;
+}
+
+
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
